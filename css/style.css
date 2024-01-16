@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    width: 757px;
+    margin: 0 auto;
+}
+body{
+  
+    background: #E9EBEC;
+}
+.mod_button{
+   border: none;
+   color: white;
+   background-color: #FFF;
+   border-radius: 50%;
+   padding: 10px;
+   position: relative;
+   margin-top: 50px;
+   left: 45%;
+}
+.nav{
+    padding-top: 150px;
+    display: flex;
+}
+.nav_img{
+   
+    width: 192px;
+    height: 192px;
+    }
+.nav_info{
+    h2{
+        width: 372px;
+        color: #3D3D3D;
+        font-family: Poppins;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 20px 0px 3px 40px;
+    }
+    p{
+        width: 372px;
+        color: #575757;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 0px 0px 20px 40px;
+    }
+    ul{
+        display: flex;
+        margin-left: 25px;
+        li{
+            margin-left: 15px;
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
+
+.info{
+    margin-top: 70px;
+    .info_ul{
+        display: flex;
+        
+        li{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 90px;
+        }
+    }
+}
+.download{
+    margin-top: 100px;
+    .download_btn_1{
+        width: 290px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FBD144;;
+        border: none;
+   
+        .img{
+            width: 26.979px;
+            height: 24px;
+        }
+    }
+    .download_btn_2{
+        margin-left: 90px;
+        width: 290px;
+        height: 50px;
+        border-radius: 5px;
+        background: #fff;
+        border: none;
+        
+       
+    }
+}
+.project_buttons{
+    margin-top: 150px;
+    width: 720px;
+    background-color: #fff;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    display: flex;
+    button{
+        width: 351.445px;
+        height: 50px;
+        border: none;
+        background-color: #fff;
+    }
+    .project_button_1{
+        background-color:#D7D7D7;
+        border-radius: 10px;
+    }
+}
+.project_projects{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    li{
+        img{
+            width: 357px;
+        }
+        margin-bottom: 50px;
+        margin-right: 20px;
+    }
+}
